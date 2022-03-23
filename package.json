@@ -1,0 +1,23 @@
+{
+  "name": "nature_tours",
+  "version": "1.0.0",
+  "description": "init change",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SBrandon0432/Nature_tours.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SBrandon0432/Nature_tours/issues"
+  },
+  "homepage": "https://github.com/SBrandon0432/Nature_tours#readme",
+  "dependencies": {
+    "sass": "^1.49.9",
+    "sass-loader": "^12.6.0"
+  }
+}
