@@ -1,13 +1,13 @@
 import React from "react";
-import '../../../sass/main.scss';
+import '../../sass/main.scss';
   // import img from '../../../'
 const App = () => {
 
   return (
     <div>
-              <header className="header">
+        <header className="header">
             <div className="header__logo-box">
-                <img
+              <img
                 src='http://127.0.0.1:55654/client/img/logo-white.png'
                 alt="logo image"
                 className="header__logo"
