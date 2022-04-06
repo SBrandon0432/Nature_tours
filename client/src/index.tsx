@@ -5,7 +5,7 @@ import '../sass/main.scss';
 
 ReactDOM.render(
   <StrictMode>
-    <div>
+    <div className="App">
       <App />
     </div>
   </StrictMode>,
