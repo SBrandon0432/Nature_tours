@@ -22,7 +22,6 @@ const Header = () => {
                 Discover out Tours
             </a>
         </div>
-
     </header>
   );
 }
