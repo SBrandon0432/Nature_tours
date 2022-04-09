@@ -1,5 +1,4 @@
 import React from "react";
-
 const About = () => {
 
 
@@ -32,11 +31,11 @@ const About = () => {
               <a href="/#" className="btn-text"> Learn More &rarr;</a>
           </div>
           <div className="col-1-of-2">
-              <div className="composition">
-                      <img className="composition__photo composition__photo--p1" src="img/nat-1-large.jpg" alt="photo 1"> </img>
-                      <img className="composition__photo composition__photo--p2" src="img/nat-2-large.jpg" alt="photo 2"> </img>
-                      <img className="composition__photo composition__photo--p3" src="img/nat-3-large.jpg" alt="photo 3"> </img>
-              </div>
+              {/* <div className="composition">
+                      <img className="composition__photo composition__photo--p1" src="http://127.0.0.1:57326/client/img/nat-1-large.jpg" alt="photo 1"> </img>
+                      <img className="composition__photo composition__photo--p2" src="http://127.0.0.1:57326/client/img/nat-2-large.jpg" alt="photo 2"> </img>
+                      <img className="composition__photo composition__photo--p3" src="http://127.0.0.1:57326/client/img/nat-3-large.jpg" alt="photo 3"> </img>
+              </div> */}
           </div>
       </div>
     </section>
