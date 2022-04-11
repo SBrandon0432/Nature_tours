@@ -236,7 +236,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \*************************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar Header = function () {\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"header\", { className: \"header\" },\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"header__logo-box\" },\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", { src: 'http://127.0.0.1:58913/client/img/logo-white.png', alt: \"logo image\", className: \"header__logo\" })),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"header__text-box\" },\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h1\", { className: \"heading-primary\" },\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"span\", { className: \"heading-primary--main\" }, \" Outdoors \"),\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"span\", { className: \"heading-primary--sub\" }, \" is where life happens \")),\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"a\", { href: \"#\", className: \"btn btn-white btn-animation\" }, \"Discover out Tours\"))));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);\n\n\n//# sourceURL=webpack://nature_tours/./client/src/components/Header/Header.tsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _img_logo_white_png__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../img/logo-white.png */ \"./client/img/logo-white.png\");\n\n\nvar Header = function () {\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"header\", { className: \"header\" },\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"header__logo-box\" },\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", { src: _img_logo_white_png__WEBPACK_IMPORTED_MODULE_1__, alt: \"logo image\", className: \"header__logo\" })),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"header__text-box\" },\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h1\", { className: \"heading-primary\" },\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"span\", { className: \"heading-primary--main\" }, \" Outdoors \"),\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"span\", { className: \"heading-primary--sub\" }, \" is where life happens \")),\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"a\", { href: \"#\", className: \"btn btn-white btn-animation\" }, \"Discover out Tours\"))));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (Header);\n\n\n//# sourceURL=webpack://nature_tours/./client/src/components/Header/Header.tsx?");
 
 /***/ }),
 
@@ -257,6 +257,16 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var reac
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"15e5f60eb95486007f5a.jpg\";\n\n//# sourceURL=webpack://nature_tours/./client/img/hero.jpg?");
+
+/***/ }),
+
+/***/ "./client/img/logo-white.png":
+/*!***********************************!*\
+  !*** ./client/img/logo-white.png ***!
+  \***********************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"6c89a3f013a3d7593e24.png\";\n\n//# sourceURL=webpack://nature_tours/./client/img/logo-white.png?");
 
 /***/ })
 

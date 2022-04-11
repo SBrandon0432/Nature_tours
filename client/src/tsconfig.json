@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "outDir": "Dist",
+    "outDir": "dist",
     "module": "es6",
     "target": "es5",
     "sourceMap": true,
@@ -21,7 +21,5 @@
   ],
   "types": [
     "typePatches"
-  ],
-  "declare": [
-  ],
+  ]
 }

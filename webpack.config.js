@@ -28,6 +28,10 @@ module.exports = {
         test: /\.(css)$/,
         use: ['style-loader', 'css-loader'],
       },
+      {
+        test: /\.(png|jpg|jpeg|gif|mp4|webm)$/i,
+        type: "asset/resource",
+      },
     ],
   },
   resolve: {

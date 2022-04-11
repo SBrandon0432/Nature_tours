@@ -1,11 +1,12 @@
 import React from "react";
+import logo from '../../../img/logo-white.png'
 
 const Header = () => {
   return (
     <header className="header">
     <div className="header__logo-box">
         <img
-        src='http://127.0.0.1:58913/client/img/logo-white.png'
+        src={logo}
         alt="logo image"
         className="header__logo"
         />
