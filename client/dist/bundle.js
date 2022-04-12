@@ -226,7 +226,7 @@ eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpac
   \***********************************************/
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n\nvar About = function () {\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"section\", { className: \"section-about\" },\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"u-center-text u-margin-bottom-big\" },\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h2\", { className: \"heading-secondary\" }, \"Exciting tours for adventurous people\")),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"row\" },\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"col-1-of-2\" },\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h3\", { className: \"heading-tertuary u-margin-bottom-small\" }, \"You're going to fall in love with nature\"),\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", { className: \"paragraph\" }, \"Non irure velit est nostrud nulla. Lorem ex ea incididunt magna dolor eiusmod dolore exercitation aliqua dolore nostrud tempor. Adipisicing labore eu esse adipisicing nisi. Enim est eu proident do consequat. Esse et aliqua deserunt nisi in. Duis nulla do id quis magna fugiat exercitation eu aliqua irure dolor occaecat. Aliqua sit laborum pariatur ut dolor qui qui ipsum mollit minim consequat occaecat officia incididunt.\"),\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h3\", { className: \"heading-tertuary u-margin-bottom-small\" }, \"Live adventurs like you never have before\"),\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", { className: \"paragraph\" }, \"Et esse dolore cupidatat dolor fugiat qui occaecat sunt. Dolor sint laboris ullamco cupidatat proident id exercitation exercitation occaecat esse esse reprehenderit. Cillum est pariatur magna mollit magna voluptate labore incididunt sint reprehenderit incididunt dolor.\"),\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"a\", { href: \"/#\", className: \"btn-text\" }, \" Learn More \\u2192\")),\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"col-1-of-2\" }))));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (About);\n\n\n//# sourceURL=webpack://nature_tours/./client/src/components/About/About.tsx?");
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony export */ __webpack_require__.d(__webpack_exports__, {\n/* harmony export */   \"default\": () => (__WEBPACK_DEFAULT_EXPORT__)\n/* harmony export */ });\n/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ \"./node_modules/react/index.js\");\n/* harmony import */ var _img_nat_1_large_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../img/nat-1-large.jpg */ \"./client/img/nat-1-large.jpg\");\n/* harmony import */ var _img_nat_2_large_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../img/nat-2-large.jpg */ \"./client/img/nat-2-large.jpg\");\n/* harmony import */ var _img_nat_3_large_jpg__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../img/nat-3-large.jpg */ \"./client/img/nat-3-large.jpg\");\n\n\n\n\nvar About = function () {\n    return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"section\", { className: \"section-about\" },\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"u-center-text u-margin-bottom-big\" },\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h2\", { className: \"heading-secondary\" }, \"Exciting tours for adventurous people\")),\n        react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"row\" },\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"col-1-of-2\" },\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h3\", { className: \"heading-tertuary u-margin-bottom-small\" }, \"You're going to fall in love with nature\"),\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", { className: \"paragraph\" }, \"Non irure velit est nostrud nulla. Lorem ex ea incididunt magna dolor eiusmod dolore exercitation aliqua dolore nostrud tempor. Adipisicing labore eu esse adipisicing nisi. Enim est eu proident do consequat. Esse et aliqua deserunt nisi in. Duis nulla do id quis magna fugiat exercitation eu aliqua irure dolor occaecat. Aliqua sit laborum pariatur ut dolor qui qui ipsum mollit minim consequat occaecat officia incididunt.\"),\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"h3\", { className: \"heading-tertuary u-margin-bottom-small\" }, \"Live adventurs like you never have before\"),\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"p\", { className: \"paragraph\" }, \"Et esse dolore cupidatat dolor fugiat qui occaecat sunt. Dolor sint laboris ullamco cupidatat proident id exercitation exercitation occaecat esse esse reprehenderit. Cillum est pariatur magna mollit magna voluptate labore incididunt sint reprehenderit incididunt dolor.\"),\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"a\", { href: \"/#\", className: \"btn-text\" }, \" Learn More \\u2192\")),\n            react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"col-1-of-2\" },\n                react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"div\", { className: \"composition\" },\n                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", { className: \"composition__photo composition__photo--p1\", src: _img_nat_1_large_jpg__WEBPACK_IMPORTED_MODULE_1__, alt: \"photo 1\" }),\n                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", { className: \"composition__photo composition__photo--p2\", src: _img_nat_2_large_jpg__WEBPACK_IMPORTED_MODULE_2__, alt: \"photo 2\" }),\n                    react__WEBPACK_IMPORTED_MODULE_0__.createElement(\"img\", { className: \"composition__photo composition__photo--p3\", src: _img_nat_3_large_jpg__WEBPACK_IMPORTED_MODULE_3__, alt: \"photo 3\" }))))));\n};\n/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (About);\n\n\n//# sourceURL=webpack://nature_tours/./client/src/components/About/About.tsx?");
 
 /***/ }),
 
@@ -267,6 +267,36 @@ eval("module.exports = __webpack_require__.p + \"15e5f60eb95486007f5a.jpg\";\n\n
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 eval("module.exports = __webpack_require__.p + \"6c89a3f013a3d7593e24.png\";\n\n//# sourceURL=webpack://nature_tours/./client/img/logo-white.png?");
+
+/***/ }),
+
+/***/ "./client/img/nat-1-large.jpg":
+/*!************************************!*\
+  !*** ./client/img/nat-1-large.jpg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"a1c1cbdbbfcad1e41a64.jpg\";\n\n//# sourceURL=webpack://nature_tours/./client/img/nat-1-large.jpg?");
+
+/***/ }),
+
+/***/ "./client/img/nat-2-large.jpg":
+/*!************************************!*\
+  !*** ./client/img/nat-2-large.jpg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"cbc0cd9f8636cfe88fe7.jpg\";\n\n//# sourceURL=webpack://nature_tours/./client/img/nat-2-large.jpg?");
+
+/***/ }),
+
+/***/ "./client/img/nat-3-large.jpg":
+/*!************************************!*\
+  !*** ./client/img/nat-3-large.jpg ***!
+  \************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval("module.exports = __webpack_require__.p + \"da53b7a00e30c54d543a.jpg\";\n\n//# sourceURL=webpack://nature_tours/./client/img/nat-3-large.jpg?");
 
 /***/ })
 
