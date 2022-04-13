@@ -34,6 +34,7 @@ const About = () => {
 
               <a href="/#" className="btn-text"> Learn More &rarr;</a>
           </div>
+
           <div className="col-1-of-2">
               <div className="composition">
                       <img className="composition__photo composition__photo--p1" src={largeImageOne} alt="photo 1"/>
