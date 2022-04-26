@@ -9,6 +9,5 @@ ReactDOM.render(
       <App />
     </div>
   </StrictMode>,
-
   document.getElementById('root')
 )
