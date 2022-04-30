@@ -7,6 +7,7 @@ module.exports = {
     path: path.resolve(__dirname, './client/dist'),
     filename: 'bundle.js',
   },
+
   module: {
     rules: [
       {
@@ -36,7 +37,6 @@ module.exports = {
   },
   resolve: {
     extensions: ['.ts', '.tsx', '.js', '.jsx', '.scss'],
-
   },
 
 };
