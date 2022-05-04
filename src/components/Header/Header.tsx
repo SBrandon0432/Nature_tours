@@ -7,7 +7,7 @@ const Header = () => {
     <div className="header__logo-box">
         <img
         src={logo}
-        alt="logo image"
+        alt="logo"
         className="header__logo"
         />
     </div>
@@ -19,7 +19,7 @@ const Header = () => {
             </h1>
 
             <a
-            href="#"
+            href="/#"
             className="btn btn-white btn-animation">
                 Discover out Tours
             </a>
