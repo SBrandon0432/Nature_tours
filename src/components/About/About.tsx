@@ -38,9 +38,9 @@ const About = () => {
 
           <div className="col-1-of-2">
               <div className="composition">
-                      <img className="composition__photo composition__photo--p1" src={largeImageOne} alt="photo 1"/>
-                      <img className="composition__photo composition__photo--p2" src={largeImageTwo} alt="photo 2"/>
-                      <img className="composition__photo composition__photo--p3" src={largeImageThree} alt="photo 3"/>
+                      <img className="composition__photo composition__photo--p1" src={largeImageOne} alt="photo_1"/>
+                      <img className="composition__photo composition__photo--p2" src={largeImageTwo} alt="photo_2"/>
+                      <img className="composition__photo composition__photo--p3" src={largeImageThree} alt="photo_3"/>
               </div>
           </div>
       </div>
