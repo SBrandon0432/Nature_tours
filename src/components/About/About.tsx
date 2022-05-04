@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React from "react";
 import largeImageOne from '../../Assets/img/nat-1-large.jpg';
 import largeImageTwo from '../../Assets/img/nat-2-large.jpg';
 import largeImageThree from '../../Assets/img/nat-3-large.jpg';
@@ -6,7 +6,6 @@ import largeImageThree from '../../Assets/img/nat-3-large.jpg';
 
 
 const About = () => {
-    const [images, setImages] = useState([largeImageOne,largeImageTwo,largeImageThree]);
 
 
 
