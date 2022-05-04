@@ -1,12 +1,17 @@
-import React from "react";
+import React, {useState } from "react";
+import Composition from "../Composition/Composition";
 import largeImageOne from '../../Assets/img/nat-1-large.jpg';
 import largeImageTwo from '../../Assets/img/nat-2-large.jpg';
 import largeImageThree from '../../Assets/img/nat-3-large.jpg';
 
 
 
-const About = () => {
-
+const About: React.FC = () => {
+    const [images, setImages] = useState([
+        largeImageOne,
+        largeImageTwo,
+        largeImageThree
+    ])
 
 
   return (
@@ -38,11 +43,7 @@ const About = () => {
           </div>
 
           <div className="col-1-of-2">
-              <div className="composition">
-                      <img className="composition__photo composition__photo--p1" src={largeImageOne} alt="photo_1"/>
-                      <img className="composition__photo composition__photo--p2" src={largeImageTwo} alt="photo_2"/>
-                      <img className="composition__photo composition__photo--p3" src={largeImageThree} alt="photo_3"/>
-              </div>
+            <Composition images={images} />
           </div>
       </div>
     </section>
