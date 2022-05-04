@@ -1,7 +1,7 @@
 import React from "react";
-import largeImageOne from '../../../img/nat-1-large.jpg'
-import largeImageTwo from '../../../img/nat-2-large.jpg'
-import largeImageThree from '../../../img/nat-3-large.jpg'
+// import largeImageOne from '../../../img/nat-1-large.jpg'
+// import largeImageTwo from '../../../img/nat-2-large.jpg'
+// import largeImageThree from '../../../img/nat-3-large.jpg'
 
 
 const About = () => {
@@ -37,9 +37,9 @@ const About = () => {
 
           <div className="col-1-of-2">
               <div className="composition">
-                      <img className="composition__photo composition__photo--p1" src={largeImageOne} alt="photo 1"/>
+                      {/* <img className="composition__photo composition__photo--p1" src={largeImageOne} alt="photo 1"/>
                       <img className="composition__photo composition__photo--p2" src={largeImageTwo} alt="photo 2"/>
-                      <img className="composition__photo composition__photo--p3" src={largeImageThree} alt="photo 3"/>
+                      <img className="composition__photo composition__photo--p3" src={largeImageThree} alt="photo 3"/> */}
               </div>
           </div>
       </div>
