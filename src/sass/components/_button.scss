@@ -1,7 +1,18 @@
 .btn {
-	&-white {
+	&--white {
 		background-color: $color-white;
 		color: $color-gray-dark;
+		&::after {
+			background-color: $color-white;
+		}
+	}
+
+	&--green {
+		background-color: $color-primary;
+		color: $color-white;
+		&::after {
+			background-color: $color-primary;
+		}
 	}
 
 	&::after {
@@ -51,5 +62,25 @@
 	&:active {
 		transform: translateY(-1px);
 		box-shadow: 0 0.5rem 1rem rgba($color-black, 0.3);
+	}
+}
+
+.btn-text {
+	&:link,
+	&:visited {
+		font-size: $default-font-size;
+		color: $color-primary;
+		display: inline-block;
+		text-decoration: none;
+		border-bottom: 1px solid $color-primary;
+		transition: all 0.2s;
+		padding: 0.3rem;
+
+		&:hover {
+			background-color: $color-primary;
+			color: $color-white;
+			transform: translateY(-0.2rem) scale(1.02);
+			box-shadow: 0 1rem 2rem rgba($color-black, 0.4);
+		}
 	}
 }

@@ -24,7 +24,7 @@ const Header = () => {
 
             <a
             href="/#"
-            className="btn btn-white btn-animation">
+            className="btn btn--white btn-animation">
                 Discover out Tours
             </a>
         </div>
