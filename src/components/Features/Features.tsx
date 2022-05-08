@@ -27,15 +27,21 @@ const Features: React.FC = (props: Array< Object> | any) => {
   return (
     <section className="section-features">
         <div className="row">
-            <div className="col-1-of-4">
-                <div className="feature-box">
-                    <i className="feature-box__icon icon-basic-world"></i>
-                    <h3 className="heading-tertuary u-margin-bottom-small">Explore the world</h3>
-                    <p className="feature-box__text">
-                        Ex veniam consectetur sunt nisi reprehenderit labore nisi dolore cillum sit deserunt commodo proident eu.
-                    </p>
+          {
+            cards.map((card, index) => {
+              return (
+                <div className="col-1-of-4" key={index}>
+                    <div className="feature-box">
+                        <i className="feature-box__icon icon-basic-world"></i>
+                        <h3 className="heading-tertuary u-margin-bottom-small">{card.title} </h3>
+                        <p className="feature-box__text">
+                           {card.text}
+                        </p>
+                    </div>
                 </div>
-            </div>
+              )
+            } )
+          }
           </div>
     </section>
   )
