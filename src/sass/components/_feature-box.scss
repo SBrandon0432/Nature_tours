@@ -1,11 +1,11 @@
 .feature-box {
-	background-color: $color-white;
-	padding: 2.5rem;
+	background-color: rgba($color-white, 0.8);
+	padding: 1.5rem;
 	font-size: 1.6rem;
-	box-sizing: 3px;
 	border-radius: 3px;
 	text-align: center;
-	transition: all 0.2s;
+	transition: transform 0.2s;
+	box-shadow: 0 1.5rem 4rem rgba($color-black, 0.15);
 
 	&__icon {
 		padding: 0.5rem;
@@ -21,6 +21,6 @@
 	}
 
 	&:hover {
-		transform: translateY(-1.5rem);
+		transform: translateY(-1.5rem) scale(1.05);
 	}
 }

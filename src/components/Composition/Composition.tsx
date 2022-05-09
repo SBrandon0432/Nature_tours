@@ -17,7 +17,7 @@ const Composition: React.FC<any> = ( {images}: Iprops) => {
       {
          images.map((img: string, index: number) => {
           return (
-          <div className="composition">
+          <div className="composition" key={index}>
             <img className= {`composition__photo composition__photo--p${index+1}`} src={img} alt={`photo_${index+1}`}/>
           </div>
           )

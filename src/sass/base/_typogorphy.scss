@@ -59,7 +59,7 @@ body {
 
 .paragraph {
 	font-size: $default-font-size;
-
+	color: $color-gray-dark-2;
 	&:not(:last-child) {
 		margin-bottom: 3rem;
 	}
