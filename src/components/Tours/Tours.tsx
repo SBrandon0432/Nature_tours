@@ -13,7 +13,9 @@ const Tours: React.FC = (props: any) => {
           </h2>
       </div>
       <div className="row">
+        <div className="col-1-of-3">
           <Cards />
+        </div>
       </div>
     </section>
   )
