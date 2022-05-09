@@ -5,16 +5,22 @@
 	box-sizing: 3px;
 	border-radius: 3px;
 	text-align: center;
+	transition: all 0.2s;
 
 	&__icon {
 		padding: 0.5rem;
 		font-size: 5.7rem;
 		display: inline-block;
+		background-image: linear-gradient(
+			to right,
+			$color-primary-light,
+			$color-primary-dark
+		);
+		-webkit-background-clip: text;
+		color: transparent;
 	}
 
 	&:hover {
-	}
-
-	& > * {
+		transform: translateY(-1.5rem);
 	}
 }
