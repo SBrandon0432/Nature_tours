@@ -32,6 +32,15 @@ const Cards: React.FC< Array<IProps> | any> = (cards) => {
                 </span>
               </h4>
 
+              <div className="card__details">
+                <ul>
+                  <li>{card.days}</li>
+                  <li>{card.people}</li>
+                  <li>{card.guides}</li>
+                  <li>{card.sleeping}</li>
+                  <li>{card.difficulty}</li>
+                </ul>
+              </div>
 
             </div>
           )
