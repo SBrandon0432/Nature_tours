@@ -21,10 +21,18 @@ const Cards: React.FC< Array<IProps> | any> = (cards) => {
       {
         cards.array.map((card: IProps, index:number)=>{
           return (
-            <div key={index}>
-              <h1>
-                hello
-              </h1>
+            <div key={index} className='card__side card__side--front'>
+              <div className={`card__picture card__picture--${index+1}`}>
+                  &nbsp;
+              </div>
+
+              <h4 className="card__heading">
+                <span className={`card__heading-span card__heading-span--${index+1}`}>
+                    {card.title}
+                </span>
+              </h4>
+
+
             </div>
           )
         })
@@ -35,5 +43,4 @@ const Cards: React.FC< Array<IProps> | any> = (cards) => {
 
 
 export default Cards
-
 
