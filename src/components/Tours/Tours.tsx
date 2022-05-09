@@ -33,7 +33,10 @@ const Tours: React.FC = (props: any) => {
       price: '$275'
     }
   ]) as any
-  console.log(cards);
+
+
+
+
   return (
     <section className="section-tours">
       <div className="u-center-text u-margin-bottom-big">

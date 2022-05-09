@@ -32,7 +32,6 @@ const Cards: React.FC< Array<IProps> | any> = (cards) => {
                       {card.title}
                   </span>
                 </h4>
-
                 <div className="card__details">
                   <ul>
                     <li>{card.days}</li>
