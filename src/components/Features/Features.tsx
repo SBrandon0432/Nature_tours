@@ -7,7 +7,7 @@ const Features: React.FC = (props: Array< Object> | any) => {
   const [cards, setCards] = useState([
     {
       title:'Explore the world',
-      text: 'Ex veniam consectetur sunt nisi reprehenderit labore nisi dolore cillum sit deserunt commodo proident eu.',
+      text: 'Ex veniam consectetur sunt nisi reprehenderit labore nisi dolore cillum sit deserunt commodo.',
       icon: 'icon-basic-world'
    },
    {

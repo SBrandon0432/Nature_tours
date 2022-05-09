@@ -1,5 +1,5 @@
 .feature-box {
-	background-color: red;
+	background-color: $color-white;
 	padding: 2.5rem;
 	font-size: 1.6rem;
 	box-sizing: 3px;
@@ -10,9 +10,11 @@
 		padding: 0.5rem;
 		font-size: 5.7rem;
 		display: inline-block;
-		color: white;
 	}
 
 	&:hover {
+	}
+
+	& > * {
 	}
 }
