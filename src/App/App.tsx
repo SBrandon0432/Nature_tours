@@ -3,6 +3,7 @@ import React from 'react';
 import Header from '../components/Header/Header';
 import About from '../components/About/About';
 import Features from '../components/Features/Features';
+import Tours from '../components/Tours/Tours';
 const App = () => {
 
   return (
@@ -10,6 +11,7 @@ const App = () => {
         <Header />
         <About />
         <Features />
+        <Tours />
     </div>
   )
 }
