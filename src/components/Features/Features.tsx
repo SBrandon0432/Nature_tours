@@ -40,7 +40,7 @@ const Features: React.FC = (props: Array< Object> | any) => {
                     </div>
                 </div>
               )
-            } )
+            })
           }
           </div>
     </section>
