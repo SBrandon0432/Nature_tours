@@ -6,4 +6,16 @@
 
 .section-features {
 	padding: 20rem 0;
+	background-image: linear-gradient(
+			to bottom right,
+			rgba($color-primary-light, 0.8),
+			rgba($color-primary-dark, 0.8)
+		),
+		url(../../Assets/img/nat-4.jpg);
+	background: cover;
+	transform: skewY(-7deg);
+
+	& > * {
+		transform: skewY(7deg);
+	}
 }
