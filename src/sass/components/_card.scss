@@ -4,7 +4,11 @@
 	height: 50rem;
 
 	&__side {
+		height: 52rem;
+		border-radius: 3px;
+
 		&--front {
+			background-color: red;
 		}
 
 		&--back {
@@ -18,5 +22,22 @@
 	}
 
 	&__picture {
+		background-size: cover;
+		height: 20rem;
+		background-blend-mode: screen;
+		clip-path: polygon(0% 0%, 100% 0%, 100% 85%, 0% 100%);
+
+		&--1 {
+			background-image: linear-gradient(
+					to bottom right,
+					$color-secondary-light,
+					$color-secondary-dark
+				),
+				url(../../Assets/img/nat-4.jpg);
+		}
+		&--2 {
+		}
+		&--3 {
+		}
 	}
 }
