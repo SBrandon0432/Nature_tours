@@ -6,9 +6,10 @@
 	&__side {
 		height: 52rem;
 		border-radius: 3px;
-
+		box-shadow: 0 1.5rem 4rem rgba(#000, 0.15);
+		backface-visibility: hidden;
 		&--front {
-			background-color: red;
+			background-color: $color-white;
 		}
 
 		&--back {
@@ -28,6 +29,13 @@
 			margin: 0 auto;
 			li {
 				text-align: center;
+				font-size: 1.3rem;
+				padding: 1rem;
+				color: $color-gray-dark;
+
+				&:not(:last-child) {
+					border-bottom: 1px solid $color-gray-light-2;
+				}
 			}
 		}
 	}
