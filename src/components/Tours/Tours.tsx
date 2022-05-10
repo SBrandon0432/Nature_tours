@@ -15,22 +15,22 @@ const Tours: React.FC = (props: any) => {
       price: '$275'
     },
     {
-      title: 'The Sea Explorer',
-      days: '3 Day Tours',
-      people: 'Up to 30 people',
-      guides: '2 tour guilds',
-      sleeping: 'Sleep in cozy hotels',
-      difficulty: 'Difficulty: Easy',
-      price: '$275'
+      title: 'The Forest Hiker',
+      days: '7 Day Tours',
+      people: 'Up to 40 people',
+      guides: '6 tour guilds',
+      sleeping: 'Sleep in provided tents',
+      difficulty: 'Difficulty: medium',
+      price: '$479'
     },
     {
-      title: 'The Sea Explorer',
-      days: '3 Day Tours',
-      people: 'Up to 30 people',
-      guides: '2 tour guilds',
-      sleeping: 'Sleep in cozy hotels',
-      difficulty: 'Difficulty: Easy',
-      price: '$275'
+      title: 'The snow adventurer',
+      days: '5 Day Tours',
+      people: 'Up to 15 people',
+      guides: '3 tour guilds',
+      sleeping: 'Sleep in provided tents',
+      difficulty: 'Difficulty: Hard',
+      price: '$479'
     }
   ]) as any
 
