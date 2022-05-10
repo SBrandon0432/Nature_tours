@@ -19,6 +19,17 @@
 	}
 
 	&__details {
+		padding: 3rem;
+		ul {
+			list-style: none;
+			text-transform: uppercase;
+			width: 80%;
+			padding-left: 0%;
+			margin: 0 auto;
+			li {
+				text-align: center;
+			}
+		}
 	}
 
 	&__picture {
