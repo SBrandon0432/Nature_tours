@@ -33,11 +33,23 @@
 					$color-secondary-light,
 					$color-secondary-dark
 				),
-				url(../../Assets/img/nat-4.jpg);
+				url(../../Assets/img/nat-5.jpg);
 		}
 		&--2 {
+			background-image: linear-gradient(
+					to bottom right,
+					$color-primary-light,
+					$color-primary-dark
+				),
+				url(../../Assets/img/nat-6.jpg);
 		}
 		&--3 {
+			background-image: linear-gradient(
+					to bottom right,
+					$color-tertiary-light,
+					$color-tertiary-dark
+				),
+				url(../../Assets/img/nat-7.jpg);
 		}
 	}
 }
