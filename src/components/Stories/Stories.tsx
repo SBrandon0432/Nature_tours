@@ -5,9 +5,9 @@ const Stories: React.FC = () => {
 
 
   return (
-    <div>
-      hello
-    </div>
+    <section className="section-stories">
+
+    </section>
   )
 
 }
