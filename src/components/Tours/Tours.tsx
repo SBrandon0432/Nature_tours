@@ -51,6 +51,10 @@ const Tours: React.FC = (props: any) => {
             )
           }
       </div>
+
+      <div className="u-margin-top-huge u-center-text">
+          <a href="/#" className="btn btn--green"> Discover All Tours</a>
+      </div>
     </section>
   )
 }
