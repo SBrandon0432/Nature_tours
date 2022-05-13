@@ -18,12 +18,11 @@
 		shape-outside: circle(50% at 50% 50%);
     clip-path: circle(50% at 50% 50%);
 		transform: translateX(-3rem) skewX(12deg);
-
   }
 
   &__image{
     height: 100%;
-
+    transform: scale(1.4) translateX(-4rem);
   }
 
   &__caption{
@@ -31,7 +30,7 @@
   }
 
   &__text{
-
+    font-size:$default-font-size;
   }
 
 }
