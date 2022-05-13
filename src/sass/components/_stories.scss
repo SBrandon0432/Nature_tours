@@ -23,6 +23,8 @@
   &__image{
     height: 100%;
     transform: scale(1.4) translateX(-4rem);
+    backface-visibility: hidden;
+    transition: all .5s;
   }
 
   &__text{
@@ -40,8 +42,18 @@
     color: $color-white;
     text-transform: uppercase;
     text-align: center;
+    backface-visibility: hidden;
+    transition: all .5s;
+  }
+
+  &:hover &__caption {
+    transform: translateY(-50%,-50%);
 
   }
 
+  &:hover &__image{
+    transform: scale(1) translateX(-4rem);
+    filter: blur(3px) brightness(80%) ;
+  }
 
 }
