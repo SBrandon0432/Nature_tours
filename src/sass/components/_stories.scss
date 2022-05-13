@@ -1,18 +1,29 @@
 .story {
   width: 75%;
   padding: 6rem;
+  padding-left: 9rem;
+  margin-left: 13%;
   background-color: rgba($color-gray-light-1, 80%);
   border-radius: 3px;
   overflow: hidden;
-  transform: skew(-15deg);
+  transform: skewX(-12deg);
   box-shadow: 0 4rem 5rem rgba($color-black, .4);
 
   &__shape {
+    position: relative;
+    float: left;
+    width: 15rem;
+		height: 15rem;
+    overflow: hidden;
+		shape-outside: circle(50% at 50% 50%);
+    clip-path: circle(50% at 50% 50%);
+		transform: translateX(-3rem) skewX(12deg);
+
   }
 
   &__image{
-    height: 10rem;
-    border-radius: 50%;
+    height: 100%;
+
   }
 
   &__caption{
