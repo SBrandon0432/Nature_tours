@@ -1,0 +1,26 @@
+.story {
+  width: 75%;
+  padding: 6rem;
+  background-color: rgba($color-gray-light-1, 80%);
+  border-radius: 3px;
+  overflow: hidden;
+  transform: skew(-15deg);
+  box-shadow: 0 4rem 5rem rgba($color-black, .4);
+
+  &__shape {
+  }
+
+  &__image{
+    height: 10rem;
+    border-radius: 50%;
+  }
+
+  &__caption{
+
+  }
+
+  &__text{
+
+  }
+
+}
