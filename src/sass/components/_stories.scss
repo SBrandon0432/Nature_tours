@@ -25,12 +25,23 @@
     transform: scale(1.4) translateX(-4rem);
   }
 
-  &__caption{
-
-  }
-
   &__text{
     font-size:$default-font-size;
+    transform: skewX(12deg);
+
   }
+
+  &__caption{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    font-size: $default-font-size;
+    color: $color-white;
+    text-transform: uppercase;
+    text-align: center;
+
+  }
+
 
 }
