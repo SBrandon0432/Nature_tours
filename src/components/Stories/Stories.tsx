@@ -1,11 +1,10 @@
 import React from "react";
 import videoMp4 from '../../Assets/img/video.mp4'
 import videoWebm from '../../Assets/img/video.webm'
-
+import StoryReviews from "../StoryReviews/StoryReviews";
 
 
 const Stories: React.FC = () => {
-
 
 
   return (
