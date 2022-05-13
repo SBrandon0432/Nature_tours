@@ -44,11 +44,12 @@
     text-align: center;
     backface-visibility: hidden;
     transition: all .5s;
+    opacity: 0;
   }
 
   &:hover &__caption {
-    transform: translateY(-50%,-50%);
-
+    transform: translate(-50%,-50%);
+    opacity: 1;
   }
 
   &:hover &__image{
