@@ -12,7 +12,7 @@ const Stories: React.FC = () => {
     <section className="section-stories">
 
       <div className="bg-video">
-      <video className="bg-video__content" autoPlay muted loop>
+        <video className="bg-video__content" autoPlay muted loop>
             <source src={videoMp4} type="video/mp4"/>
             <source src={videoWebm} type="video/webm"/>
             Browser Not Supported, Try using Chrome.
@@ -20,7 +20,7 @@ const Stories: React.FC = () => {
       </div>
 
 
-      <div className="u-center-text u-margin-bottom-big">
+      <div className="u-center-text u-margin-bottom-big u-margin-top-big">
         <h2 className="heading-secondary">
           We make people genuinely happy
         </h2>

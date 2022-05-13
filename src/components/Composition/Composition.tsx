@@ -11,7 +11,6 @@ interface Iprops  {
 const Composition: React.FC<any> = ( {images}: Iprops) => {
 
 
-
   return (
     <div className="composition">
       {
