@@ -1,4 +1,5 @@
 .form {
+
 	&__group:not(:last-child) {
 		margin-bottom: 2rem;
 	}
@@ -48,6 +49,7 @@
 	}
 
 	&__radio-group {
+    padding-bottom: 2rem;
 		width: 49%;
 		display: inline-block;
 	}

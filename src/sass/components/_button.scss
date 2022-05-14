@@ -38,9 +38,11 @@
 	}
 }
 
+.btn,
 .btn:link,
 .btn:visited {
 	text-transform: uppercase;
+	border: none;
 	font-size: $default-font-size;
 	text-decoration: none;
 	padding: 1.5rem 4rem;

@@ -7,6 +7,7 @@ import imageTwo from '../../Assets/img/nat-9.jpg'
 
 
 const Stories: React.FC = () => {
+   // eslint-disable-next-line
   const [stories, setStories] = useState([
     {
       name:'Mary Smith',
