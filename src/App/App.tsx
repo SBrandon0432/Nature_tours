@@ -5,6 +5,7 @@ import About from '../components/About/About';
 import Features from '../components/Features/Features';
 import Tours from '../components/Tours/Tours';
 import Stories from '../components/Stories/Stories';
+import ContactForm from '../components/ContactForm/ContactForm';
 const App = () => {
 
   return (
@@ -14,6 +15,7 @@ const App = () => {
         <Features />
         <Tours />
         <Stories />
+        <ContactForm />
     </div>
   )
 }
