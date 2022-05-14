@@ -32,6 +32,36 @@
 	position: relative;
 }
 
+.section-booking {
+	padding: 15rem 0;
+	background-image: linear-gradient(
+		to right bottom,
+		$color-primary-light,
+		$color-primary-dark
+	);
+}
+
+.book {
+	background-image: linear-gradient(
+		105deg,
+		rgba($color-white, 0.9) 0%,
+		rgba($color-white, 0.9) 50%,
+		rgba(transparent, 0) 50%
+	),
+	url(../../Assets/img/nat-10.jpg);
+	background-size: cover;
+	border-radius: 3px;
+	overflow: hidden;
+	box-shadow: 0 1.5rem 4rem rgba($color-black, 0.2);
+
+	height: 50rem;
+
+	&__form {
+		width: 50%;
+		padding: 6rem;
+	}
+}
+
 // W10737990
 // missing one ntrn (nutrion 1) 1 class for an A.A.
 // kenisolgy for 1 unit
