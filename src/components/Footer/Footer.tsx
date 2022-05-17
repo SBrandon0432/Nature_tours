@@ -1,4 +1,5 @@
 import React from "react";
+import Logo from '../../Assets/img/logo-green-2x.png'
 
 const Footer = ( ) => {
 
@@ -7,7 +8,7 @@ const Footer = ( ) => {
   return (
     <section className="footer">
     <div className="footer__logo-box">
-        <img src="./img/logo-green-2x.png" className="footer__logo" alt="Full Logo"/>
+        <img src={Logo} className="footer__logo" alt="Full Logo"/>
     </div>
     <div className="row">
         <div className="col-1-of-2">
