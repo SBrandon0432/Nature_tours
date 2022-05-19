@@ -23,7 +23,6 @@ const Footer = ( ) => {
             </div>
         </div>
 
-
         <div className="col-1-of-2">
             <p className="footer__copyright">
                 Build By <a className="footer__link" href="https://github.com/SBrandon0432">Samuel Brandon</a>
