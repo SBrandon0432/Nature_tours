@@ -14,18 +14,18 @@ const Footer = ( ) => {
         <div className="col-1-of-2">
             <div className="footer__navigation">
                 <ul className="footer__list">
-                    <li className="footer__item"><a href="/#" className="footer__link"> Company </a></li>
-                    <li className="footer__item"><a href="/#" className="footer__link"> Contact us </a></li>
-                    <li className="footer__item"><a href="/#" className="footer__link"> Carriers </a></li>
-                    <li className="footer__item"><a href="/#" className="footer__link"> Privacy policy </a></li>
-                    <li className="footer__item"><a href="/#" className="footer__link"> Terms </a></li>
+                    <li className="footer__item"><a href="https://github.com/SBrandon0432" className="footer__link"> Company </a></li>
+                    <li className="footer__item"><a href="https://www.linkedin.com/in/sam-brandon/" className="footer__link"> Contact us </a></li>
+                    <li className="footer__item"><a href="https://github.com/SBrandon0432" className="footer__link"> Carriers </a></li>
+                    <li className="footer__item"><a href="https://github.com/SBrandon0432" className="footer__link"> Privacy policy </a></li>
+                    <li className="footer__item"><a href="https://github.com/SBrandon0432" className="footer__link"> Terms </a></li>
                 </ul>
             </div>
         </div>
 
         <div className="col-1-of-2">
             <p className="footer__copyright">
-                Build By <a className="footer__link" href="https://github.com/SBrandon0432">Samuel Brandon</a>
+                Build By <a className="footer__link" href="https://github.com/SBrandon0432">Sam Brandon</a>
                 Currently Seeking job opportunity as a Frontend software engineer. Check out my
                 <a className="footer__link" href="https://www.linkedin.com/in/sam-brandon/">Linkedin</a>
                 for contact information and
