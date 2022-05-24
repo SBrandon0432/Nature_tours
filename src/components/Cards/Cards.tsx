@@ -1,8 +1,6 @@
 import React, { useCallback, useState } from "react";
 
 
-
-
   interface IProps {
     title: string;
     days: string;
