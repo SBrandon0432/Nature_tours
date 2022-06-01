@@ -25,11 +25,11 @@ const Footer = ( ) => {
 
         <div className="col-1-of-2">
             <p className="footer__copyright">
-                Build By <a className="footer__link" href="https://github.com/SBrandon0432">Sam Brandon</a>
-                Currently Seeking job opportunity as a Frontend software engineer. Check out my
-                <a className="footer__link" href="https://www.linkedin.com/in/sam-brandon/">Linkedin</a>
+                Build By <a className="footer__link" href="https://github.com/SBrandon0432"> Sam Brandon    </a>
+                  Currently Seeking job opportunity as a Frontend software engineer. Check out my
+                <a className="footer__link" href="https://www.linkedin.com/in/sam-brandon/"> Linkedin </a>
                 for contact information and
-                <a className="footer__link" href="https://www.linkedin.com/in/sam-brandon/overlay/1635478557658/single-media-viewer/">resume.</a>
+                <a className="footer__link" href="https://www.linkedin.com/in/sam-brandon/overlay/1635478557658/single-media-viewer/"> resume.</a>
 
             </p>
         </div>
