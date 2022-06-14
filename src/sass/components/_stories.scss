@@ -9,6 +9,11 @@
   transform: skewX(-12deg);
   box-shadow: 0 4rem 5rem rgba($color-black, .4);
 
+  @media (max-width: 600px) {
+    width: 50%;
+  }
+
+
   &__shape {
     position: relative;
     float: left;
