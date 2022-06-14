@@ -35,6 +35,9 @@ const ContactForm = () => {
                             className="form__input"
                             value={name}
                             required id="name"
+                            onFocus={(e) => {
+                              setName('')
+                            }}
                             onChange={( (e)=> {
                               setName(e.target.value)
                             })}
@@ -48,6 +51,9 @@ const ContactForm = () => {
                             className="form__input"
                             value={email}
                             required id="email"
+                            onFocus={()=>{
+                              setEmail('');
+                            }}
                             onChange={((e)=> {
                               setEmail(e.target.value)
                             })}
