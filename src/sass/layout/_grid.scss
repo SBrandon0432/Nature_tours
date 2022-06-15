@@ -5,6 +5,10 @@
 
 	&:not(:last-child) {
 		margin-bottom: $gutter-vert;
+
+		@include respond(tab-port) {
+			margin-bottom: $gutter-vert-small;
+		}
 	}
 
 	@include clearfix;
@@ -13,7 +17,18 @@
 		float: left;
 		&:not(:last-child) {
 			margin-right: $gutter-horizontal;
+
+			@include respond(tab-port) {
+				margin-right: 0;
+				margin-bottom: $gutter-vert-small;
+			}
 		}
+
+
+		@include respond(tab-port) {
+			width: 100% !important;
+		}
+
 	}
 
 	.col-1-of-2 {
