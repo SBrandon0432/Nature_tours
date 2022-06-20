@@ -29,7 +29,13 @@ const Footer = ( ) => {
                   Currently Seeking job opportunity as a Frontend software engineer. Check out my
                 <a className="footer__link" href="https://www.linkedin.com/in/sam-brandon/"> Linkedin </a>
                 for contact information and
-                <a className="footer__link" href="https://www.linkedin.com/in/sam-brandon/overlay/1635478557658/single-media-viewer/"> resume.</a>
+                <a className="footer__link" href="https://www.linkedin.com/in/sam-brandon/overlay/1635478557658/single-media-viewer/"> resume. </a>
+
+                Check out some of my other current work in Three.js as well
+                <a className="footer__link" href="https://master.d258lkzp17ij6b.amplifyapp.com/">
+                    right here!
+                </a>
+
 
             </p>
         </div>
