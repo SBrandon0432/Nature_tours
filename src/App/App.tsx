@@ -5,8 +5,7 @@ import Tours from '../components/Tours/Tours';
 import Stories from '../components/Stories/Stories';
 import ContactForm from '../components/ContactForm/ContactForm';
 import Footer from '../components/Footer/Footer';
-import * as THREE from 'three'
-import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls'
+
 
 
 const App = () => {
